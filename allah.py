@@ -94,6 +94,10 @@ if uploaded_file is not None:
         """,
         unsafe_allow_html=True
     )
+    
+    # Display text area for easy copying
+    details_text = "\n".join([f"{key}: {value}" for key, value in details.items()])
+    st.text_area("Copy the details below:", details_text, height=200)
 
     # Create and provide a download link for the Excel file
     excel_file = create_excel_file(details)
