@@ -1,8 +1,5 @@
-streamlit
-transformers
-langchain
-google-api-python-client
-google-auth-httplib2
-google-auth-oauthlib
-openai
-chromadb
+ase>=3.22.1
+gpaw>=22.8.0
+matplotlib>=3.6.0
+numpy>=1.23.5
+streamlit>=1.22.0
