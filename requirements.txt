@@ -1,5 +1,6 @@
+--find-links https://pypi.fysik.dtu.dk
+gpaw==23.9.0
 ase>=3.22.1
-gpaw==22.8.0 --find-links https://pypi.fysik.dtu.dk
 matplotlib>=3.6.0
 numpy>=1.23.5
 streamlit>=1.22.0
